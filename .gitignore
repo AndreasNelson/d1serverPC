@@ -1,0 +1,45 @@
+Destiny (USA, Korea) (En,Fr,De,Es,It,Pt)/
+Destiny - The Taken King (USA) (DLC)/
+Gemini CLI Destiny 1 RPCS3 Plan.txt
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Extraction temp
+extraction/
+temp/
+*.pkg.extracted/
+
+# Documentation (internal planning/analysis)
+docs/
+*.plan.txt
+*.analysis.md
+
+# Environment & IDE
+.env
+.env.local
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Game asset files (internal use only)
+*.pkg
+*.rap
+*.sfb
+*.at3
+*.dll
+*.extracted/

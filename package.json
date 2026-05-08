@@ -1,0 +1,34 @@
+{
+  "name": "d1serverpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasNelson/d1serverPC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AndreasNelson/d1serverPC/issues"
+  },
+  "homepage": "https://github.com/AndreasNelson/d1serverPC#readme",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "better-sqlite3": "^12.9.0",
+    "express": "^5.2.1",
+    "koffi": "^2.16.2"
+  }
+}
